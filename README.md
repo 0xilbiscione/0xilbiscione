@@ -1,4 +1,4 @@
-Your web3 friendly neighbor
+Your web3 friendly neighbor ✨
 
 <!---
 this isvspecial repository because its `README.md` (this file) appears on your GitHub profile.
