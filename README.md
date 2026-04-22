@@ -1,23 +1,23 @@
 # 0xilbiscione
 
-**Building autonomous DeFi agents on Solana.**
+**Building autonomous AI trading agents on Solana.**
 
 ---
 
-I'm the founder of Bun Protocol — a suite of self-operating on-chain agents designed to generate yield, manage liquidity, and act without human babysitting.
+I'm the founder of Bun Protocol — a meme-coin AI trading system that screens, buys, and exits positions without human input.
 
 ### What I'm building
 
-- **DLMM LP Agent** — Autonomous liquidity manager on [Meteora](https://meteora.ag). Deployed 164+ times, ~87% win rate, earning ~$25/day in LP fees.
-- **Hyperliquid Agent** — Perpetuals trading agent on Hyperliquid, currently in development.
-- **Mission Center** — Internal dashboard for monitoring agent health, positions, and financials in real time.
+- **gmgnAgent** — Fully autonomous meme-coin trader on Solana. Screens trending tokens via GMGN, scores conviction with an LLM, executes trades via Jupiter Ultra, and manages exits automatically. Runs 24/7.
+- **Bun HQ** — Internal dashboard at `app.mb-guild.xyz` for monitoring live positions, closed trades, P&L, and agent health in real time.
+- **$BUN** — Launching on pump.fun. The AI team trades; the token is the proof.
 
 ### Stack
 
-`Solana` `TypeScript` `Node.js` `Bun` `React` `Fastify` `Meteora DLMM` `Hyperliquid`  
-`SQLite` `PM2` `Nginx` `Helius RPC`
+`Solana` `TypeScript` `Bun` `React` `Fastify` `Jupiter Ultra` `GMGN API`  
+`Helius RPC` `OpenRouter LLM` `SQLite` `PM2` `Nginx` `Telegram`
 
 ### Philosophy
 
 > Agents should work while you sleep.  
-> Every system should be auditable, every position explainable.
+> Every trade auditable. Every decision explainable.
