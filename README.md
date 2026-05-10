@@ -9,7 +9,7 @@ I'm the founder of Bun Protocol — a fully autonomous AI system that trades mem
 ### What I'm building
 
 - **gmgnAgent** — Autonomous meme-coin trader on Solana. Screens trending tokens via GMGN, scores conviction with an LLM, executes trades via Jupiter Ultra, and manages exits automatically. Runs 24/7.
-- **token-deployer** — Autonomous memecoin launcher. Watches X for viral posts, scores virality, extracts a token theme via LLM, and deploys a new token on [Printr](https://app.printr.money) — fully on-chain, no human needed. → [github.com/0xilbiscione/BunDev](https://github.com/0xilbiscione/BunDev)
+- **token-deployer** — Autonomous memecoin launcher. Watches X for viral posts, scores virality, extracts a token theme via LLM, and deploys a new token on [pump.fun](https://pump.fun) — fully on-chain, no human needed. → [github.com/0xilbiscione/BunDev](https://github.com/0xilbiscione/BunDev)
 - **MetricBase** — Analyzing data by day, on-chain strategist by night. Resource center for professional and next-gen tech. → [github.com/MetricBaseOrg](https://github.com/MetricBaseOrg)
 
 ### Stack
