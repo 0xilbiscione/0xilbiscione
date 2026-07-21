@@ -1,10 +1,12 @@
 # 0xilbiscione
 
-**Building autonomous AI agents on Solana.**
+**Building autonomous AI agents on Solana — and shipping AI-assisted finance systems in public.**
 
 ---
 
 I'm the founder of Bun Protocol — a fully autonomous AI system that trades meme coins, deploys tokens, and tracks money — without human input.
+
+I use GitHub as a build log: tightening agent workflows, documenting repo context for AI coding tools, and turning repeated finance/crypto workflows into auditable software.
 
 ### What I'm building
 
@@ -25,11 +27,13 @@ Resource center for energy, crypto, and equity markets. → [github.com/MetricBa
 
 ### Stack
 
-`Solana` `TypeScript` `Python` `Bun` `Next.js` `React` `Fastify` `Tailwind`  
-`Jupiter Ultra` `GMGN API` `Printr API` `Helius RPC` `OpenRouter LLM`  
-`Prisma` `Neon Postgres` `SQLite` `Auth.js` `Resend` `Agent-Reach` `PM2` `Nginx` `Telegram`
+`Solana` `TypeScript` `Python` `Bun` `Next.js` `React` `Fastify` `Tailwind`<br>
+`Jupiter Ultra` `GMGN API` `Printr API` `Helius RPC` `OpenRouter LLM`<br>
+`Prisma` `Neon Postgres` `SQLite` `Auth.js` `Resend` `Agent-Reach` `PM2` `Nginx` `Telegram`<br>
+`Claude Code` `Codex` `GitHub` `AI-assisted development`
 
 ### Philosophy
 
-> Agents should work while you sleep.  
-> Every trade auditable. Every deployment traceable.
+> Agents should work while you sleep.<br>
+> Every trade auditable. Every deployment traceable.<br>
+> Ship small, document context, and let AI handle the repeatable work.
