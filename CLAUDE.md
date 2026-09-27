@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is the **GitHub profile README repo** (`0xilbiscione/0xilbiscione`) — GitHub renders `README.md` on the user's profile page. The repo's **only** tracked file is `README.md`; there is no code, build, package manager, or tests. Editing the README is the entire job.
 
-The README is a portfolio bio. It links out to the actual projects, which live in **separate repos** (Bun Protocol / gmgnAgent, BunDev token-deployer, the `financial-tracker`/`platform` workspace, FinAgent, MetricBase). Do not implement those products here — only describe/link them.
+The README is a portfolio bio. It links out to the actual projects, which live in **separate repos** (Bun Protocol / gmgnAgent, BunDev token-deployer, the MetricBase `platform` workspace (formerly `financial-tracker`), FinAgent, MetricBase World, PumpBid, MetricBase). Do not implement those products here — only describe/link them.
 
 ## Conventions
 
