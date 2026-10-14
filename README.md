@@ -17,7 +17,10 @@ Screens trending tokens via GMGN, scores conviction with an LLM (OpenRouter), ex
 Watches X for viral posts, scores virality with an LLM, extracts a token theme, and deploys a new token on [pump.fun](https://pump.fun) fully on-chain — no human needed. Uses Printr API for token creation and Helius RPC for on-chain confirmation. → [github.com/0xilbiscione/BunDev](https://github.com/0xilbiscione/BunDev)
 
 **MetricBase Platform** — Unified workspace for teams and their AI agents.  
-Projects, Finance, Field ops, team chat, and AI agent members in one multi-tenant org, with multi-currency books, a transaction approval workflow, and an audit trail. Supersedes the standalone financial-tracker. Next.js 16 · Prisma 7 + Neon · Auth.js v5. Live at [apps.metricbase.org](https://apps.metricbase.org).
+Projects, Finance, Field ops, team chat, and AI agent members in one multi-tenant org, with multi-currency books, a transaction approval workflow, and an audit trail. Ships an MCP server so Claude Code can act inside a workspace as one of its agents — scoped, hashed tokens, read-only unless changes are allowed, every call logged. Supersedes the standalone financial-tracker. Next.js 16 · Prisma 7 + Neon · Auth.js v5. Self-hosted on WSL as a Docker Compose stack behind a Cloudflare Tunnel. Live at [apps.metricbase.org](https://apps.metricbase.org).
+
+**site** (by MetricBase) — Fast one-page sites for Indonesian small businesses (UMKM).  
+One Cloudflare Worker serves every business from a D1 row; owners edit menu, hours, and photos from their phone. Every price, hour, and address carries a `confirmed` flag — owners confirm, AI and staff never do. Astro · Cloudflare Workers · D1 + R2.
 
 **FinAgent** — Automated financial report pipeline.  
 Extracts tables from annual/quarterly PDF reports with Python (`pdfplumber` + `pandas`) and maps them to a standardized double-entry ledger CSV that feeds the platform's Finance module.
@@ -33,10 +36,10 @@ Research across energy markets, crypto, and Indonesian equities, plus a Monday W
 
 ### Stack
 
-`Solana` `TypeScript` `Python` `Bun` `Next.js` `React` `TanStack Start` `Fastify` `Tailwind`<br>
+`Solana` `TypeScript` `Python` `Bun` `Next.js` `React` `Astro` `TanStack Start` `Fastify` `Tailwind`<br>
 `Jupiter Ultra` `GMGN API` `Printr API` `Helius RPC` `OpenRouter LLM` `Phaser` `Colyseus`<br>
-`Prisma` `Neon Postgres` `SQLite` `Auth.js` `Resend` `Agent-Reach` `PM2` `Nginx` `Vercel` `Railway` `Telegram`<br>
-`Claude Code` `Codex` `GitHub` `AI-assisted development`
+`Prisma` `Neon Postgres` `SQLite` `Auth.js` `Resend` `Agent-Reach` `PM2` `Nginx` `Vercel` `Railway` `Docker` `WSL` `Cloudflare Tunnel` `Cloudflare Workers` `D1` `R2` `Telegram`<br>
+`Claude Code` `Codex` `MCP` `GitHub` `AI-assisted development`
 
 ### Philosophy
 
